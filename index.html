@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kanit&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="./src/reset.css">
+    <link rel="stylesheet" href="./src/CSS/estilos.css">
+    <link rel="stylesheet" href="./src/CSS/scrollbar.css">
+</head>
+<body>
+    <header>
+        <a href="/">
+            <img src="./imagens/pokeball.png" alt="pokebola"  class="logo">
+        </a>
+        <button id="botao-alterar-tema">
+            <img src="./imagens/sun.png" alt="imagem do sol" class="imagem-botao">
+        </button> <!--ID é um atributo de identificação-->
+    </header>
+    <main>
+        <ul class="listagem-pokemon">
+            <li class="cartao-pokemon">
+                <div class="informacoes">
+                    <span>Bulbasaur</span>
+                    <span>#001</span>
+                </div>
+                <img src="./imagens/bulbasaur.gif" alt="bulbasaur" class="gif">
+                <ul class="tipos">
+                    <ul class="tipo grama">Grama</ul>
+                    <ul class="tipo veneno">Veneno</ul>
+                </ul>
+                <p class="descricao">O bulbasaur é um pokemon que ataca usando seus 
+                    chicotes de cipó e atirando sementes pelo seu bulbo.</p>
+            </li>
+            <li class="cartao-pokemon">
+                <div class="informacoes">
+                    <span>Ivysaur</span>
+                    <span>#002</span>
+                </div>
+                <img src="./imagens/ivysaur.gif" alt="ivysaur" class="gif">
+                <ul class="tipos">
+                    <ul class="tipo grama"> Grama</ul>
+                    <ul class="tipo veneno">Veneno</ul>
+                </ul>
+                <p class="descricao">O ivysaur é um pokemon que consegue reunir um pouco de energia solar para criar um pequeno
+                raio de explosão usando o polén de seu bulbo.
+            </p>
+            </li>
+            <li class="cartao-pokemon">
+                <div class="informacoes">
+                    <span>Venusaur</span>
+                    <span>#003</span>
+                </div>
+                <img src="./imagens/venusaur.gif" alt="venusaur" class="gif">
+                <ul class="tipos">
+                    <ul class="tipo grama"> Grama</ul>
+                    <ul class="tipo veneno"> Veneno</ul>
+                </ul>
+                <p class="descricao">Em sua fase final, o venusaur consegue produzir um raio energético para arremessar seus adversários
+                para longe.</p>
+            </li>
+            <li class="cartao-pokemon">
+                <div class="informacoes">
+                    <span>Charmander</span>
+                    <span>#004</span>
+                </div>
+                <img src="./imagens/charmander.gif" alt="charmander" class="gif">
+                <ul class="tipos">
+                    <ul class="tipo fogo">Fogo</ul>
+                </ul>
+                <p class="descricao">O pequeno charmander consegue cuspir pequenas quantidades de fogo, 
+                suficientes para acender uma fogueira</p>
+            </li>
+            <li class="cartao-pokemon">
+                <div class="informacoes">
+                    <span>Charmeleon</span>
+                    <span>#005</span>
+                </div>
+                <img src="./imagens/charmeleon.gif" alt="charmeleon" class="gif">
+                <ul class="tipos">
+                    <ul class="tipo fogo">Fogo</ul>
+                </ul>
+                <p class="descricao">Capaz de resistir a temperaturas acima de 80ºC, este ser conseguiria destruir
+                uma casa com suas rajadas de fogo.
+            </p>
+            </li>
+            <li class="cartao-pokemon">
+                <div class="informacoes">
+                    <span>Charizard</span>
+                    <span>#006</span>
+                </div>
+                <img src="./imagens/charizard.gif" alt="charizard" class="gif">
+                <ul class="tipos">
+                    <ul class="tipo fogo">Fogo</ul>
+                    <ul class="tipo voador">Voador</ul>
+                </ul>
+                <p class="descricao">Capaz de alçar voo por longas distancias, esta criatura indomável
+                possui um temperamento super volátil.
+            </p>
+            </li>
+            <li class="cartao-pokemon">
+                <div class="informacoes">
+                    <span>Squirtle</span>
+                    <span>#007</span>
+                </div>
+                <img src="./imagens/squirtle.gif" alt="squirtle" class="gif">
+                <ul class="tipos">
+                    <ul class="tipo agua">Água</ul>
+                </ul>
+                <p class="descricao">O Squirtle é um pokemon bastante animado, adora fazer bolhas para
+                    chamar atenção.</p>
+            <li class="cartao-pokemon">
+                <div class="informacoes">
+                    <span>Wartortle</span>
+                    <span>#008</span>
+                </div>
+                <img src="./imagens/wartortle.gif" alt="wartortle" class="gif">
+                <ul class="tipos">
+                    <ul class="tipo agua">Água</ul>
+                </ul>
+                <p>Com seu temperamento mais maduro, o wartortle tornou se um pokemon mais sério
+                    com uma feição amedrontadora
+                </p>
+            </li>
+            <li class="cartao-pokemon">
+                <div class="informacoes">
+                    <span>Blastoise</span>
+                    <span>#009</span>
+                </div>
+                <img src="./imagens/blastoise.gif" alt="blastoise" class="gif">
+                <ul class="tipos">
+                    <ul class="tipo agua">Água</ul>
+                </ul>
+                <p>O blastoise é um verdadeiro bombeiro, com seus fortes jatos d'agua, ele é capaz de apagar
+                    incêndios.
+                </p>
+        </ul> <!---Class é um atributo dentro da tag ul-->
+    </main>
+    <script src="./src/js/poke.js"></script>
+</body>
+</html>
